@@ -1,0 +1,43 @@
+/sample.ipynb
+/.idea
+/requirements.txt
+/config.py
+
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Environment and secrets
+config.py
+.env
+*.env
+secrets.*
+*.key
+*.pem
+*.crt
+
+# Azure credentials
+**/azure_credentials.json
+**/*.azure*
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Virtual Environment
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm specific
+*.iml
+EOF
